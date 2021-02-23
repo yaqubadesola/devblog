@@ -51,4 +51,4 @@ This DevBlog App was made with Laravel , Having already Known that Laravel is ac
 
 ### Note 
  
- To  see full functionalities of this dev_app it needs to be hosted..as at the time of documentation of this read the free hosting used has not been fully populated once done, it will be definitely update here. Thanks and enjoy your day.
+ To  see full functionalities of this dev_app it needs to be hosted..as at the time of documentation of this documention the free hosting used has not been fully populated, once done it will be  update here. In view of this, You may have a limited unique user which is local IP. Thanks and enjoy your day. 
