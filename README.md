@@ -9,7 +9,7 @@
 
 ## About DevBlog 
 
-A simple blog app based on demand that tracks how many unique users have visited the app. The app will also have blog posts where users will be able to create and read stories. Each story will also have a view count. That is, how many times the post was opened/read:
+A simple blog app based on the demand that tracks the number of unique users that have visited the app. The app will also have blog posts where users will be able to create and read stories. Each story will also have a view count. That is, how many times the post was opened/read:
 
 
 
@@ -48,3 +48,7 @@ This DevBlog App was made with Laravel , Having already Known that Laravel is ac
 	<li>composer install</li>
 	<li>php artisan migrate</li>
 </ul>
+
+### Note 
+ 
+ To  see full functionalities of this dev_app it needs to be hosted..as at the time of documentation of this read the free hosting used has not been fully populated once done, it will be definitely update here. Thanks and enjoy your day.
