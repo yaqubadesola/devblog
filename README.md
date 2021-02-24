@@ -7,13 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About DevBlog 
+## About DevBlog (https://devblog.go.yj.fr/)
 
 A simple blog app based on the demand that tracks the number of unique users that have visited the app. The app will also have blog posts where users will be able to create and read stories. Each story will also have a view count. That is, how many times the post was opened/read:
 
 
 
-This DevBlog App was made with Laravel , Having already Known that Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This DevBlog App was made with Laravel , Having already Known that Laravel is accessible, powerful, and provides tools required for large, robust applications. check it out (https://devblog.go.yj.fr/)
 
 ## DevBlog Features
 
@@ -26,7 +26,7 @@ This DevBlog App was made with Laravel , Having already Known that Laravel is ac
 	<li>Count the number of times the app was visited</li>
 </ul>
 
-## Installation
+## Installation on Your Local System
 
 
 <ul type="1">
@@ -36,7 +36,7 @@ This DevBlog App was made with Laravel , Having already Known that Laravel is ac
 	<li>Open your terminal and cd to your project root folder</li>
 	<li>Run composer install or php composer.phar install</li>
 	<li>Update your <i><b>.env</b></i> to reflect your local changes</li>
-	<li>Run php artisan key:generate database</li>
+	<li>Run php artisan key:generate </li>
 	<li>Run php artisan migrate</li>
 	<li>Run php artisan serve</li>
 </ul>
@@ -52,3 +52,5 @@ This DevBlog App was made with Laravel , Having already Known that Laravel is ac
 ### Note 
  
  To see full functionalities of this devblog app it needs to be hosted..as at the time of this documention the free hosting used has not been fully propagated, once done it will be  update here. In view of this, You may have a limited unique user which is local IP. Thanks and enjoy your day. 
+
+### You can now visit the devblog on production (https://devblog.go.yj.fr/)
