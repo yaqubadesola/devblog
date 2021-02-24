@@ -1,5 +1,10 @@
 <?php
+
 use Illuminate\Support\Str;
+
+$visitors = App\Models\Visitor::all();
+$total_visitors = count($visitors);
+$formatter = new \NumberFormatter("en-US", \NumberFormatter::ORDINAL);
 
 ?>
 @extends('blog.app')
@@ -17,6 +22,17 @@ use Illuminate\Support\Str;
     <!--grid-layout-->
     <section class="section pt-85">
         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <h4 style="color: #fa9090;">Welcome Guest! <br>You are the ({{$formatter->format($total_visitors)}}) user to visit my Blog page</h4>
+                    <br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <b>&nbsp;</b>
+                </div>
+            </div>
             <div class="row">
                 @if(!empty($posts))
                     @foreach($posts as $post)
