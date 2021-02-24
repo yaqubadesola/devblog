@@ -20,7 +20,7 @@
             <ul class="navbar-nav ml-auto mr-auto">
                 <li><a class="nav-link" style="color: #F67280"> 
                      
-                   <b>Welcome You are the ({{$formatter->format($total_visitors)}}) user to visit my Blog page</b> 
+                   <b>Welcome! You are the ({{$formatter->format($total_visitors)}}) user to visit my Blog page</b> 
                 </a></li>
             </ul>
         </div>

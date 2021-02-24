@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Posts;
 use App\Models\Visitor;
+
 class PostController extends Controller
 {
     /**
@@ -64,7 +65,8 @@ class PostController extends Controller
         if($request->hasFile('feature_image')){
             $image=$request->file('feature_image');
             $FullImage=time().'.'.$image->getClientOriginalExtension();
-            $dest=public_path('assets/img/blog');
+            $dest=public_path('assets/img/blog'); //for development
+            //$dest = base_path().'/assets/img/blog'; // for production
             $image->move($dest,$FullImage);
         }else{
             $FullImage='na';
