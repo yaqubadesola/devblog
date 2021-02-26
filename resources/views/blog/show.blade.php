@@ -13,6 +13,12 @@
     <section class="section pt-55 ">
         <div class="container">
             <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <h4 style="color: #fa9090;">Welcome Guest! <br>Thanks for being one of total ({{$total_visitors}}) Visitors on my Blog page</h4>
+                    <br><br>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-10 offset-lg-1 mb-20">
                     <!--Post-single-->
                     <div class="post-single">

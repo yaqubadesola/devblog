@@ -24,7 +24,7 @@ $formatter = new \NumberFormatter("en-US", \NumberFormatter::ORDINAL);
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" style="text-align: center">
-                    <h4 style="color: #fa9090;">Welcome Guest! <br>You are the ({{$formatter->format($total_visitors)}}) user to visit my Blog page</h4>
+                    <h4 style="color: #fa9090;">Welcome Guest! <br>Thanks for being one of total ({{$total_visitors}}) Visitors on my Blog page</h4>
                     <br><br>
                 </div>
             </div>
